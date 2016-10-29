@@ -1,0 +1,31 @@
+{
+  "name": "WebDev",
+  "version": "1.0.0",
+  "description": "A project to do some web development",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rklimsa/web-development"
+  },
+  "author": "Rico Klimsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rklimsa/web-development/issues"
+  },
+  "homepage": "https://github.com/rklimsa/web-development",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "child_process": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.2.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.14",
+    "gulp-uglify": "^2.0.0",
+    "pump": "^1.0.1",
+    "typescript": "^2.0.6"
+  }
+}
