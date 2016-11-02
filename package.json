@@ -25,6 +25,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-html-js-template": "^0.1.6",
     "gulp-minify": "0.0.14",
+    "gulp-sequence": "^0.4.6",
     "gulp-uglify": "^2.0.0",
     "plumper": "0.0.2",
     "pump": "^1.0.1",

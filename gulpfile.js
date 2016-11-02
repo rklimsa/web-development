@@ -6,6 +6,7 @@ var clean = require('gulp-clean');
 var concat = require('gulp-concat');
 var childProcess = require('child_process');
 var htmlToJs = require('gulp-html-js-template');
+var gulpSequence = require('gulp-sequence');
 
 var distPath = './dist/';
 var srcPath = './src/';
@@ -46,9 +47,7 @@ gulp.task('compress', function() {
 		})).pipe(gulp.dest(distPath))
 });
 
-gulp.task('build', ['clean','convert', 'concat', 'compress'], function() {
-	console.log('build completed');
-});
+gulp.task('build', gulpSequence('clean','convert', 'concat', 'compress'));
 
 gulp.task('serve', function(cb) {
 	gulp_server_start(cb);
