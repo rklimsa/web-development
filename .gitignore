@@ -26,6 +26,10 @@ coverage
 # distribution folder
 dist
 
+# tmp build folder
+tmp
+tmp/converted
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
