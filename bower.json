@@ -1,0 +1,22 @@
+{
+  "name": "WebDev",
+  "description": "Program for some web development",
+  "keywords": [
+    "web",
+    "bower",
+    "node"
+  ],
+  "authors": [
+    "Rico Klimsa"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "devDependencies": {}
+}
