@@ -25,6 +25,10 @@ gulp.task('clean_tmp', function () {
         .pipe(clean());
 });
 
+gulp.task('move', function() {
+	return gulp.src(srcPath + 'html/**/*.html').pipe(gulp.dest(distPath + 'html/'))
+});
+
 gulp.task('convert', function() {
 	return gulp.src(srcPath + 'html/index.html').pipe(htmlToJs({
 		ext:'js'
@@ -47,7 +51,7 @@ gulp.task('compress', function() {
 		})).pipe(gulp.dest(distPath))
 });
 
-gulp.task('build', gulpSequence('clean','convert', 'concat', 'compress'));
+gulp.task('build', gulpSequence('clean','move', 'concat', 'compress'));
 
 gulp.task('serve', function(cb) {
 	gulp_server_start(cb);
