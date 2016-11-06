@@ -1,7 +1,3 @@
-    /**
-     * System configuration for Angular samples
-     * Adjust as necessary for your application needs.
-     */
     (function (global) {
       System.config({
         paths: {
@@ -29,7 +25,7 @@
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
           app: {
-            main: './components/home/app.main.js',
+            main: './components/home/home.main.js',
             defaultExtension: 'js'
           },
           rxjs: {
