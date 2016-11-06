@@ -3,12 +3,15 @@
 </h3>
 <div>
 	<div>
-		Menu 1
+		<a [routerLink]="'/'">Home</a>
 	</div>
 	<div>
-		Menu 2
+		<a [routerLink]="'/video'">Videos</a>
 	</div>
 	<div>
 		Menu 3
 	</div>
+</div>
+<div class="outer-outlet">
+	<router-outlet></router-outlet>
 </div>
