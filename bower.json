@@ -1,0 +1,28 @@
+{
+  "name": "WebDev",
+  "version": "1.0.0",
+  "description": "A application to practice some web development",
+  "main": "app/components/base/base.main.js",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "Web",
+    "Angular2"
+  ],
+  "authors": [
+    "RIco Klimsa"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "gulp": "~3.9.1"
+  }
+}
